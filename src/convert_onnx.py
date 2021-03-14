@@ -21,7 +21,6 @@ from opts import opts
 from dataset.dataset_factory import dataset_factory
 from detector import Detector
 
-
 def convert_onnx(opt):
   os.environ['CUDA_VISIBLE_DEVICES'] = opt.gpus_str
   opt.model_output_list = True
